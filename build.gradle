@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+group 'net.lazygun.experiment'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+}
